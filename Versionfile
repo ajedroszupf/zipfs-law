@@ -1,0 +1,10 @@
+BASE_VERSION="0.0.1"
+
+# Keep these as they are
+CONTAINER_TAGS="yes"
+STRATEGY="semver"
+
+UPDATE_POM="no"
+
+# Don't modify! This is set to "no" to prevent `versioner` from writing `zipfs_law/__version__.py`.
+UPDATE_PYTHON_VERSION="no"
